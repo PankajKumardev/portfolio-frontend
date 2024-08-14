@@ -1,7 +1,8 @@
 export const SocialCards = () => {
     return (
       <div className="fixed bottom-0 left-0 right-0 flex justify-center  hidden md:block md:justify-center md:flex  lg:block lg:justify-center lg:flex">
-        <div className="box-border h-18 w-[22%] border-2 border-[#262626] rounded-full mb-10 bg-[#1d1d1d] transition-transform duration-300 transform hover:scale-105">
+       
+        <div className="  box-border md:h-18  sm:h-18 d:w-[22%] border-2 border-[#262626] rounded-full mb-10 bg-[#1d1d1d] transition-transform duration-300 transform hover:scale-105">
          
          
           <div className="flex">
