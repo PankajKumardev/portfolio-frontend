@@ -13,9 +13,9 @@ This is the frontend of my personal portfolio website, built to showcase my proj
 - **Vite**
 
 ## ⚙️ Getting Started
- **Clone the repository**:
-   ```bash
-   git clone https://github.com/PankajKumardev/portfolio-frontend.git
+**Clone the repository**:
+```bash
+git clone https://github.com/PankajKumardev/portfolio-frontend.git
 cd portfolio-frontend
 npm install
 npm run dev
