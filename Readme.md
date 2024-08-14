@@ -1,5 +1,5 @@
 # 🌐 Portfolio Frontend
-This is the frontend of my personal portfolio website, built to showcase my projects, skills, and experience.
+This is the frontend of my personal portfolio website, built to showcase my projects and skills 
 
 ## 🚀 Features
 - **Responsive Design**: Optimized for all devices.
