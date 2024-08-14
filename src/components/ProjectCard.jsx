@@ -3,7 +3,7 @@ import { Stackbox } from "./stackbox";
 export const ProjectCard = ({ img, title, description, techStack, website }) => {
     return ( 
         <div className="box-border border-2 w-full max-w-xs h-auto border-[#1A1B1C] rounded-lg shadow-md transition duration-300 ease-in text-slate-10 ml-4 bg-[#0c0e12] mb-4">
-            <img src={img} alt="" className="h-44 w-full rounded-t-lg object-cover" />
+            <img src={img} alt="" className="lg:h-48 h-32 w-full object-fill sm:w-full md:w-full lg:w-full rounded-t-lg object-cover" />
             <h1 className="text-lg font-semibold mt-1 ml-1 mr-2">{title}</h1>
             <p className="text-slate-300 text-base ml-1 mr-2">{description}</p>
             <div className="flex flex-wrap mt-2 ml-1 mb-2">
