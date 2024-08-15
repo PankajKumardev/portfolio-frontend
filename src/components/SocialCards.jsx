@@ -1,3 +1,4 @@
+import resume from "../assets/resume.pdf";
 export const SocialCards = () => {
     return (
       <div className="fixed bottom-0 left-0 right-0 flex justify-center  md:block md:justify-center md:flex  lg:block lg:justify-center lg:flex">
@@ -74,7 +75,7 @@ export const SocialCards = () => {
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
               </svg>
             </a>
-            <a href="" className="mt-4 ml-3 hover:scale-110 transition-transform duration-300">
+           <a href={resume} className="mt-4 ml-3 hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-10 h-6"
