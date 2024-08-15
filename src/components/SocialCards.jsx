@@ -7,7 +7,7 @@ export const SocialCards = () => {
          
          
           <div className="flex">
-            <a href="#Home" className="mt-4 ml-3 hover:scale-110 transition-transform duration-300">
+            <a href={resume} className="mt-4 ml-3 hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-10 h-6 "
