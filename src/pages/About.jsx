@@ -1,3 +1,4 @@
+import resume from "../assets/resume.pdf"
 export const About = () => {
     return (
         <div className="flex flex-col items-center mt-28 px-4">
@@ -16,7 +17,7 @@ export const About = () => {
                         <a href="#Project" className="font-semibold">Projects</a>
                     </div>
                     <div className="box-border p-4 border-2 cursor-pointer border-gray-300 rounded-lg shadow-md hover:bg-white transition duration-300 ease-in-out w-28 h-13 text-slate-100 hover:text-black flex items-center justify-center" 
-                    
+                    <a href={resume} className="font-semibold " id="Project" >Resume</a>
                     >
                         <a href="#Resume" id = "Project" className="font-semibold" >Resume</a>
                     </div>
