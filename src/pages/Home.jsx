@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import profileImage from '../assets/1695982209520.jpg';
+import resume from "../assets/resume.pdf";
 export const Home = () => {
   const [isWaving, setIsWaving] = useState(false);
 
@@ -46,9 +47,8 @@ export const Home = () => {
           </p>
         </div>
         <div className="box-border  p-4 mt-8 border-2 cursor-pointer border-gray-300 rounded-lg shadow-md hover:bg-white transition duration-300 ease-in-out w-28 h-13 text-slate-100 hover:text-black flex items-center justify-center" 
-        id = "About"
-        >
-                        <a href="#Resume" className="font-semibold " >Resume</a>
+        id = "About">
+                       <a href={resume} className="font-semibold " >Resume</a>
                     </div>
       </div>
     </div>
