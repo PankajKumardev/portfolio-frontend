@@ -38,7 +38,7 @@ export const Project = () =>{
             />
               <ProjectCard 
             img = {salesforce}
-            title = "Finsync"
+            title = "Salesforce Clone"
             description = "Create a Salesforce clone with user interface layouts for dashboards and records, focusing on design and interaction"
             techStack={['HTML', 'CSS']}
              website="https://salesforceclone.netlify.app/"
