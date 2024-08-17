@@ -59,7 +59,7 @@ export const SocialCards = () => {
                 ></path>
               </svg>
             </a>
-            <a href="mailto:pankajams1234@gmail.com" className="mt-4 ml-3 hover:scale-110 transition-transform duration-300">
+            <a href="mailto:pankajams1234@gmail.com" target="_blank" className="mt-4 ml-3 hover:scale-110 transition-transform duration-300">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-10 h-6"
