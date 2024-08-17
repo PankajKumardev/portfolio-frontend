@@ -2,8 +2,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* App.css */
 :root {
   background-color: #08090A
 }
-  
+ 
+
+html, body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+
+    /* For WebKit browsers (Chrome, Safari, etc.) */
+    overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
