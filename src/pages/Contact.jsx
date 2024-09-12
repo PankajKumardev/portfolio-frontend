@@ -43,14 +43,14 @@ export const Contact = () => {
                     <p className="text-center">Catch you there! ✨</p>
                 </div>
 
-                <div className="flex flex-col gap-3 sm:flex-row mt-10 pl-3 pr-3">
-                    <div className="w-full sm:w-1/2">
+                <div className="flex flex-col sm:flex-row mt-10 pl-3 pr-16 gap-3 ">
+                    <div className=" lg:ml-[70px]  md:ml-[70px] sm:w-1/2">
                         <InputBox
                             placeholder="Full Name"
                             onChange={(e) => setName(e.target.value)}
                         />
                     </div>
-                    <div className="w-full sm:w-1/2">
+                    <div className=" sm:w-1/2">
                         <InputBox
                             placeholder="Email"
                             onChange={(e) => setEmail(e.target.value)}
