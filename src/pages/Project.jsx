@@ -1,6 +1,6 @@
 import finsyc from "../assets/Projects/finsync.png"
 import salesforce from '../assets/Projects/salesforce.png';
-import tic from "../assets/Projects/tic-tac-toe.png"
+import trimmr from "../assets/Projects/trimmr.png"
 import zen from "../assets/Projects/zen-tasks.png"
 import { ProjectCard } from "../components/ProjectCard"
 
@@ -9,9 +9,16 @@ export const Project = () =>{
     return (
         <div>
             <div className=" mt-36">
-            <h1 className="flex justify-center text-4xl font-bold mb-4">Projects</h1>
+            <h1 className="flex justify-center text-4xl font-bold mb-4 ">Projects</h1>
             </div>
-           <div className="flex mt-10">
+           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 ml-[68px] sm:mr-[68px]justify-center ">
+           <ProjectCard 
+            img = {trimmr}
+            title = "Trimmr"
+            description = "A URL shortener with features for efficient link management and detailed analytics"
+            techStack={['React', 'TailwindCSS', 'Shadcn', 'Supabase']}
+            website="https://trimmrr.vercel.app/"
+            />
            <ProjectCard 
             img = {finsyc}
             title = "Finsync"
@@ -19,26 +26,21 @@ export const Project = () =>{
             techStack={['React', 'Node.js', 'TailwindCSS', 'MongoDB']}
             website="https://finsync.vercel.app/"
             />
-              <ProjectCard 
+           </div>
+          
+           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 ml-[68px] sm:mr-[68px]">
+
+           <ProjectCard 
             img = {zen}
             title = "Zen-Tasks"
             description = "implement CRUD operations and ensure tasks are stored and retrieved from the backend."
             techStack={['React', 'Node.js', 'TailwindCSS', 'MongoDB']}
-             website="https://zen-tasks-fullstack.netlify.app/"
+             website="https://finsync.vercel.app/"
             />
-           </div>
 
-           <div className="flex mt-10">
-           <ProjectCard 
-            img = {tic}
-            title = "Tic-Tac-Toe"
-            description = "Design the user interface for the Tic-Tac-Toe game, implement game logic for checking wins and draws, handle player moves."
-            techStack={['HTML', 'CSS', 'Javascript']}
-            website="https://tictactoegame4.netlify.app/"
-            />
               <ProjectCard 
             img = {salesforce}
-            title = "Salesforce Clone"
+            title = "Salesforce-Clone"
             description = "Create a Salesforce clone with user interface layouts for dashboards and records, focusing on design and interaction"
             techStack={['HTML', 'CSS']}
              website="https://salesforceclone.netlify.app/"
