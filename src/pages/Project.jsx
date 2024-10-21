@@ -1,5 +1,5 @@
 import finsyc from "../assets/Projects/finsync.png"
-import salesforce from '../assets/Projects/salesforce.png';
+import Medium from '../assets/Projects/Medium.png';
 import trimmr from "../assets/Projects/trimmr.png"
 import zen from "../assets/Projects/zen-tasks.png"
 import { ProjectCard } from "../components/ProjectCard"
@@ -12,6 +12,15 @@ export const Project = () =>{
             <h1 className="flex justify-center text-4xl font-bold mb-4 ">Projects</h1>
             </div>
            <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 ml-[68px] sm:mr-[68px]justify-center ">
+
+            <ProjectCard 
+            img = {Medium}
+            title = "Medium Clone"
+            description = " A feature-rich blogging platform enabling seamless blog creation, viewing, and user authentication."
+            techStack={['React', 'TailwindCSS', 'TypeScript', 'Cloudflare Workers', 'Hono', 'Prisma', 'PostgreSQL']}
+            website="https://medium-clone-neon-gray.vercel.app/"
+            />
+               
            <ProjectCard 
             img = {trimmr}
             title = "Trimmr"
@@ -19,7 +28,10 @@ export const Project = () =>{
             techStack={['React', 'TailwindCSS', 'Shadcn', 'Supabase']}
             website="https://trimmrr.vercel.app/"
             />
-           <ProjectCard 
+          
+           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 ml-[68px] sm:mr-[68px]">
+
+            <ProjectCard 
             img = {finsyc}
             title = "Finsync"
             description = "A user-friendly platform for virtual financial transactions with demo balances and secure simulations"
@@ -27,8 +39,6 @@ export const Project = () =>{
             website="https://finsync.vercel.app/"
             />
            </div>
-          
-           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 ml-[68px] sm:mr-[68px]">
 
            <ProjectCard 
             img = {zen}
@@ -38,13 +48,6 @@ export const Project = () =>{
              website="https://finsync.vercel.app/"
             />
 
-              <ProjectCard 
-            img = {salesforce}
-            title = "Salesforce-Clone"
-            description = "Salesforce clone with user interface layouts for focusing on design and interaction"
-            techStack={['HTML', 'CSS']}
-             website="https://salesforceclone.netlify.app/"
-            />
            </div>
             <div className="flex justify-center m-14">
             <div className="border-box border-2 h-8 w-32 bg-black text-white flex justify-center rounded-lg hover:bg-white hover:text-black cursor-pointer" 
