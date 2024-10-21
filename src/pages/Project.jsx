@@ -28,6 +28,7 @@ export const Project = () =>{
             techStack={['React', 'TailwindCSS', 'Shadcn', 'Supabase']}
             website="https://trimmrr.vercel.app/"
             />
+            </div>
           
            <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 ml-[68px] sm:mr-[68px]">
 
@@ -38,7 +39,7 @@ export const Project = () =>{
             techStack={['React', 'Node.js', 'TailwindCSS', 'MongoDB']}
             website="https://finsync.vercel.app/"
             />
-           </div>
+           
 
            <ProjectCard 
             img = {zen}
