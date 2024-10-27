@@ -46,7 +46,7 @@ export const Project = () =>{
             title = "Zen-Tasks"
             description = "implement CRUD operations and ensure tasks are stored and retrieved from the backend."
             techStack={['React', 'Node.js', 'TailwindCSS', 'MongoDB']}
-             website="https://finsync.vercel.app/"
+             website="https://zen-tasks-fullstack.netlify.app/"
             />
 
            </div>
