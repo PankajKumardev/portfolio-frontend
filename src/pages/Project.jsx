@@ -25,7 +25,7 @@ export const Project = () =>{
             img = {trimmr}
             title = "Trimmr"
             description = "A URL shortener with features for efficient link management and detailed analytics"
-            techStack={['React', 'TailwindCSS', 'Shadcn', 'Supabase']}
+            techStack={['React', 'Nodejs', 'TailwindCSS', 'Shadcn', 'Supabase']}
             website="https://trimmrr.vercel.app/"
             />
             </div>
@@ -36,7 +36,7 @@ export const Project = () =>{
             img = {finsyc}
             title = "Finsync"
             description = "A user-friendly platform for virtual financial transactions with demo balances and secure simulations"
-            techStack={['React', 'Node.js', 'TailwindCSS', 'MongoDB']}
+            techStack={['React','Expressjs', 'TailwindCSS', 'MongoDB']}
             website="https://finsync.vercel.app/"
             />
            
