@@ -11,7 +11,7 @@ export const Project = () =>{
             <div className=" mt-36">
             <h1 className="flex justify-center text-4xl font-bold mb-4 ">Projects</h1>
             </div>
-           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10  sm:mr-[68px] justify-center ">
+           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10  sm:mr-[68px] justify-center ml-10 ">
 
             <ProjectCard 
             img = {Medium}
@@ -30,7 +30,7 @@ export const Project = () =>{
             />
             </div>
           
-           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 sm:mr-[68px] justify-center">
+           <div className="flex flex-col sm:flex-row md:flex-row  lg:flex-row mt-10 sm:mr-[68px] justify-center ml-10">
 
             <ProjectCard 
             img = {finsyc}
