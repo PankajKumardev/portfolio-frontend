@@ -11,6 +11,7 @@ function App() {
 
   return (
    <div className='h-screen flex  justify-center '>
+      <Analytics />
     <div className="text-[#FAFAFA]">
     <Navbar></Navbar>
     <Home/>
